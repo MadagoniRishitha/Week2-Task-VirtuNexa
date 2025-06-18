@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>News Aggregator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Global News Headlines</h1>
+    <form id="news-form">
+      <label for="source">Select News Source:</label>
+      <select id="source" name="source" required>
+        <option value="">-- Choose Source --</option>
+        <option value="bbc-news">BBC News</option>
+        <option value="cnn">CNN</option>
+        <option value="techcrunch">TechCrunch</option>
+      </select>
+      <button type="submit">Get News</button>
+    </form>
+  </header>
+
+  <main>
+    <section id="news-container" class="news-container"></section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 News Aggregator</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
