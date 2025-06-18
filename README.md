@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # News Aggregator
 
 _Last updated: 2025-06-18_
@@ -39,3 +40,7 @@ This project is licensed under the MIT License.
 ---
 
 _Automatically generated README._
+=======
+# Week2-Task-VirtuNexa
+VirtuNexa - WEB DEVELOPMENT INTERNSHIP (WEEK - 2 TASK)
+>>>>>>> a00c9e78c0b6e7fa8f4ab9e1256ca53ad6a0f64c
